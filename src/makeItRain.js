@@ -150,7 +150,7 @@ const MakeItRain = props => {
   useDraw(items);
 
   return (
-    <View pointerEvents="none" style={StyleSheet.absoluteFill} onLayout={this.onLayout}>
+    <View pointerEvents="none" style={StyleSheet.absoluteFill} onLayout={onLayout}>
       {items.map(
         ({ index, x, y, angle, color: backgroundColor }) => {
           return (

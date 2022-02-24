@@ -138,7 +138,7 @@ const Confetti = props => {
   useDraw(confetti);
 
   return (
-    <View pointerEvents="none" style={StyleSheet.absoluteFill} onLayout={this.onLayout}>
+    <View pointerEvents="none" style={StyleSheet.absoluteFill} onLayout={onLayout}>
       {confetti.map(
         ({ index, x, y, angle, color: backgroundColor }) => {
           return (

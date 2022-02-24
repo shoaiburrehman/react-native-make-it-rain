@@ -19,7 +19,7 @@ function Root(props) {
 Root.defaultProps = {
   numItems: 100,
   itemDimensions: { width: 20, height: 10 },
-  itemColors: ['#00e4b2', '#09aec5', '#107ed5'],
+  itemColors: ['#ff0000', '#ffffff', '#000000'],
   itemTintStrength: 1.0,
   flavor: "arrive",
   fallSpeed: 50,
